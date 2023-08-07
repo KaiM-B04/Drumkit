@@ -1,0 +1,36 @@
+html,
+body {
+  background: url(Files/aliane-schwartzhaupt-QdmUva6qBTk-unsplash.jpg) center
+    fixed no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 9rem;
+}
+
+.keys {
+  min-width: 2rem;
+  display: inherit;
+  flex-direction: column;
+  padding: 5px 1rem;
+  color: rgb(208, 228, 226);
+  border: solid;
+  border-radius: 60px;
+  border-color: rgba(255, 123, 222, 0.671);
+  background-color: rgba(0, 255, 255, 0.461);
+}
+
+.keys:hover {
+  cursor: pointer;
+}
+
+span {
+  color: rgb(208, 228, 226);
+  font-size: small;
+}
